@@ -11,20 +11,20 @@
   <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="name" content="{{ fullName }}'s Portfolio">
+  <meta name="name" content="Melissa.S.Kalil's Portfolio">
   <!-- remove the following line after you are happy with your Website
        so that search engines will index it! -->
   <meta name="robots" content="noindex, nofollow">
 </header>
 
 <body ng-app="portfolioSite" ng-controller="appController" >
-  <img class="hero" src="images/banner.jpg" width="100%" alt="banner">
+  <img class="hero" src="images/aurora.jpg" width="100%" alt="banner">
 
   <!-- change this to your name -->
-  <h1 ng-bind="fullName"></h1>
+  <h1 ng-bind="Melissa.S.Kalil"</h1>
 
   <!-- add a section called "About Me" -->
-  <h2>About Me</h2>
+  <h2>About Me</h2> 
 
   <!-- add a repeat loop to show all the p tags-->
   <div ng-repeat="item in aboutMe">
@@ -34,6 +34,8 @@
 
   <h2>Work Samples</h2>
   <!-- add a repeat loop to generate the img tags -->
+   <p>Check out my Github website: Melissa725.github.io</p>
+ 
   <div ng-repeat="thumbnail in thumbnails">
     <a href="images/{{ thumbnail }}"><img src="images/{{ thumbnail }}" alt={{ thumbnail }} /></a>
   </div>
@@ -41,7 +43,7 @@
   <h2>Contact</h2>
 
   <!-- add a link to let visitor to send you an email easily! -->
-  <p>Email: <a href="mailto:{{ email }}" target="_blank">{{ email }}</a></p>
+  <p>Email: <a href="mailto:bennybunyan@gmail.com" target="_blank">bennybunyan@gmail.com</a></p>
 
   <!-- don't post personal physical address, phone number or other personal information on the web! -->
 
@@ -56,6 +58,21 @@
   <!-- link to the controller script here -->
   <script src="./angular/app.js"></script>
 </body>
+  <footer>
+  <hr>
+  <!-- change the name to yours! -->
+  <code>Copyright (C) 2022 Melissa.S.Kalil</code>
+</footer>
+
+</html>
+  
+  
+  
+  
+  
+  
+  
+  
 
 <footer>
   <hr>
